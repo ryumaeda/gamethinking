@@ -39,7 +39,7 @@ const GameResultScreen = ({
 }) => {
   const [temp_title, rules] = gameResponse.split(/ルール[:：]/);
   const title = temp_title.replace(/タイトル[:：]/, "").replace(/\n/g, "");
-  const [animation] = useState(new Animated.ValueXY({ x: 30, y: 700 }));
+  const [animation] = useState(new Animated.ValueXY({ x: 30, y: 680 }));
 
   const handleBackPress = () => {
     navigate("Home", {}); // ThinkingGameをHomeに変更
