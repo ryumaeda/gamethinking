@@ -21,7 +21,7 @@ extensions.configure(com.facebook.react.ReactSettingsExtension) { ex ->
   }
 }
 
-rootProject.name = 'aigamethinker'
+rootProject.name = 'AI Game Thinker'
 
 dependencyResolutionManagement {
   versionCatalogs {
