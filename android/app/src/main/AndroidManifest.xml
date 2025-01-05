@@ -27,7 +27,7 @@
         <action android:name="android.intent.action.VIEW"/>
         <category android:name="android.intent.category.DEFAULT"/>
         <category android:name="android.intent.category.BROWSABLE"/>
-        <data android:scheme="com.ryu86.gamethinking"/>
+        <data android:scheme="com.ryu.aigamethinker"/>
       </intent-filter>
     </activity>
   </application>

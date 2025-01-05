@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "gamethinking",
-    "slug": "gamethinking",
+    "name": "aigamethinker",
+    "slug": "aigamethinker",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
@@ -12,13 +12,13 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.ryu86.gamethinking"
+      "bundleIdentifier": "com.ryu.aigamethinker"
     },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#ffffff"
       },
-      "package": "com.ryu86.gamethinking"
+      "package": "com.ryu.aigamethinker"
     },
     "web": {
       "bundler": "metro"
