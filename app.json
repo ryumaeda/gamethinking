@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "AI Game Thinker",
-    "slug": "AI Game Thinker",
+    "name": "Game Thinker AI",
+    "slug": "Game Thinker AI",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
@@ -11,6 +11,7 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
+      "icon": "./assets/images/icon.png",
       "supportsTablet": true,
       "bundleIdentifier": "com.ryu.aigamethinker"
     },
