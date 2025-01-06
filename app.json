@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Game Thinker AI",
-    "slug": "Game Thinker AI",
+    "slug": "game-thinker-ai",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
@@ -13,13 +13,13 @@
     "ios": {
       "icon": "./assets/images/icon.png",
       "supportsTablet": true,
-      "bundleIdentifier": "com.ryu.aigamethinker"
+      "bundleIdentifier": "com.ryu.gamethinkerai"
     },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#ffffff"
       },
-      "package": "com.ryu.aigamethinker"
+      "package": "com.ryu.gamethinkerai"
     },
     "web": {
       "bundler": "metro"
@@ -33,6 +33,11 @@
           "userTrackingUsageDescription": "This identifier will be used to deliver personalized ads to you."
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "3d6b4cdc-a1b4-40fe-ac65-89193d2ca4bb"
+      }
+    }
   }
 }

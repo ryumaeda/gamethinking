@@ -27,7 +27,7 @@
       <dict>
         <key>CFBundleURLSchemes</key>
         <array>
-          <string>com.ryu.aigamethinker</string>
+          <string>com.ryu.gamethinkerai</string>
         </array>
       </dict>
     </array>

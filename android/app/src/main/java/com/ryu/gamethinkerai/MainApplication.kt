@@ -1,4 +1,4 @@
-package com.ryu.aigamethinker
+package com.ryu.gamethinkerai
 
 import android.app.Application
 import android.content.res.Configuration

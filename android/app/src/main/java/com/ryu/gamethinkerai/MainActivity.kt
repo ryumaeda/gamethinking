@@ -1,4 +1,4 @@
-package com.ryu.aigamethinker
+package com.ryu.gamethinkerai
 
 import android.os.Build
 import android.os.Bundle
