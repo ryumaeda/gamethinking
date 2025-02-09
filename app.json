@@ -13,13 +13,15 @@
     "ios": {
       "icon": "./assets/images/icon.png",
       "supportsTablet": true,
-      "bundleIdentifier": "com.ryu.gamethinkerai"
+      "bundleIdentifier": "com.ryu.gamethinkerai",
+      "jsEngine": "hermes"
     },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#ffffff"
       },
-      "package": "com.ryu.gamethinkerai"
+      "package": "com.ryu.gamethinkerai",
+      "jsEngine": "hermes"
     },
     "web": {
       "bundler": "metro"

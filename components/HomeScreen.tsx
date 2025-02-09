@@ -9,6 +9,7 @@ import {
   SafeAreaView,
   Keyboard,
   TouchableWithoutFeedback,
+  Dimensions,
 } from "react-native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import HandleThinkGameButton from "./HandleThinkGameButton";
@@ -25,7 +26,8 @@ const HomeScreen = ({
   navigate: (screen: string, props: any) => void;
   onThinkGame: () => void;
 }) => {
-  const [animation] = useState(new Animated.ValueXY({ x: 145, y: 400 }));
+  const centerX = Dimensions.get("window").width / 2 - 50;
+  const [animation] = useState(new Animated.ValueXY({ x: centerX, y: 400 }));
   const [thinkFlag, setthinkFlag] = useState(false);
   const [addFlag, setaddFlag] = useState(false);
   const [isMoving, setIsMoving] = useState(false);
@@ -35,7 +37,7 @@ const HomeScreen = ({
   const [gameRequest, setGameRequest] = useState("");
 
   useEffect(() => {
-    animation.setValue({ x: 145, y: 400 });
+    animation.setValue({ x: centerX, y: 400 });
   }, []);
 
   const moveToThinking = () => {
@@ -54,7 +56,7 @@ const HomeScreen = ({
   const resetIcon = () => {
     setIsMoving(true);
     Animated.timing(animation, {
-      toValue: { x: 145, y: 400 },
+      toValue: { x: centerX, y: 400 },
       duration: 350,
       useNativeDriver: true,
     }).start(() => {
@@ -82,7 +84,7 @@ const HomeScreen = ({
     setNewMemberGender("");
     setaddFlag(false);
     Animated.timing(animation, {
-      toValue: { x: 145, y: 400 },
+      toValue: { x: centerX, y: 400 },
       duration: 350,
       useNativeDriver: true,
     }).start(() => {

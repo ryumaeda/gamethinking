@@ -78,10 +78,19 @@ export default function App() {
     }
   };
 
-  mobileAds().initialize();
   const bannerRef = useRef(null);
 
   useEffect(() => {
+    // 広告の初期化を追加
+    mobileAds()
+      .initialize()
+      .then(() => {
+        // 初期化成功
+      })
+      .catch((error) => {
+        console.error("Ads initialization error:", error);
+      });
+
     const loadAd = () => {
       interstitial.load();
     };
